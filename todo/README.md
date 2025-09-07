@@ -1,6 +1,7 @@
 # Todo List
 
 A simple console-based, file I/O-compatible todo list implemented in C++.
+
 Focuses on practicing OOP with classes, setters/getters, and file operations.
 
 ## How to Use
