@@ -1,9 +1,17 @@
 # Library System
 
-Simple, fast, efficient library system implemented in C++
+A simple, fast, and efficient library management system implemented in C++.
+This project demonstrates the use of classes and vectors for managing books.
 
-# How to use?
+## How to Use
 
-Since I already implemented the entire logic of the program (including the main), you will have to compile main.cpp (via clang, etc.) and just run it. It's a fully working menu.
+The logic is fully implemented, including `main.cpp`.
+Compile and run the program, and see yourself:
 
-Only saves locally, no I/O added yet.
+```bash
+g++ main.cpp -o library
+./library
+```
+
+> ** :warning: Note **
+> Currently, only in-memory storage. No file I/O yet.
