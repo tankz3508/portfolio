@@ -36,4 +36,4 @@ It's safe, fast, and works great.
     return 0;
 ```
 
-## :warning: This is a hobby project :warning:
+### ⚠️ This is a hobby project to practice the use of Classes and generally OOP in C++. ⚠️
