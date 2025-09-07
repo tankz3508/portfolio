@@ -1,6 +1,7 @@
 # Shop System
 
 A safe and fully functional console-based shop system implemented in C++.
+
 Demonstrates OOP, inventory management, and simple error handling.
 
 ## How to Use
