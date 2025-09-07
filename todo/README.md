@@ -1,30 +1,29 @@
-# Todo
+# Todo List
 
-A simple I/O compatible Todo-list implemented in C++
+A simple console-based, file I/O-compatible todo list implemented in C++.
+Focuses on practicing OOP with classes, setters/getters, and file operations.
 
-It's fast, easy to use and works good.
+## How to Use
 
-# How to use?
+Example usage:
 
 ```cpp
 #include "../include/todo.h"
 
 int main() {
-    // DUMMY SKELETON CODE
-    Todo todo1 { "Title", "Description", false };
+    //           title    description   iscompleted?
+    Todo todo1{ "title", "description", false };
 
-    todo1.setName("New Title");
-    todo1.setDescription("New Description");
+    todo1.setName("New title");
+    todo1.setDescription("New description");
     todo1.setCompleted(true);
 
-    todo1.write("output.txt");
-    todo1.load("output.txt");
-
-    // todo1.clear("output.txt");
+    todo1.write("output.txt");    // save to file
+    todo1.load("output.txt");     // load from file
+    todo1.clear("output.txt");    // Optional: clear file
 
     return 0;
-}
 ```
 
----
-### :warning: This is a hobby project to practice the use of Classes and generally OOP in C++. :warning:
+> **:warning: Note**
+> This is a hobby project to practice classes, file I/O, and basic OOP in C++.
