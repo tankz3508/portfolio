@@ -5,6 +5,7 @@ A fully working, safe, and fast Shop system implemented in C++
 It's safe, fast, and works great.
 
 # How to use?
+
 ```cpp
     Shop shop{}; // Declare Shop class
     Player player{"Tankz", 1000.0}; // Declare Player with {(std::string)name, (double)balance}
@@ -35,4 +36,4 @@ It's safe, fast, and works great.
     return 0;
 ```
 
-# :warning: This is a hobby project :warning:
+## :warning: This is a hobby project :warning:
