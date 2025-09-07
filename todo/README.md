@@ -1,6 +1,6 @@
 # Todo
 
-A simple Todolist implementation written entirely in C++
+A simple I/O compatible Todo-list implemented in C++
 
 It's fast, easy to use and works good.
 
