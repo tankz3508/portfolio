@@ -13,5 +13,5 @@ g++ main.cpp -o library
 ./library
 ```
 
-> ** :warning: Note **
+> **:warning: Note**
 > Currently, only in-memory storage. No file I/O yet.
