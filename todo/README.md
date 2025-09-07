@@ -8,8 +8,6 @@ Focuses on practicing OOP with classes, setters/getters, and file operations.
 Example usage:
 
 ```cpp
-#include "../include/todo.h"
-
 int main() {
     //           title    description   iscompleted?
     Todo todo1{ "title", "description", false };
